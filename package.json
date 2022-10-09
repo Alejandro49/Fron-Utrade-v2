@@ -1,0 +1,30 @@
+{
+  "name": "front-utrade-v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejandro49/Front-Utrade-v2.git"
+  },
+  "author": "Alejandro Llorente Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alejandro49/Front-Utrade-v2/issues"
+  },
+  "homepage": "https://github.com/Alejandro49/Front-Utrade-v2#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
